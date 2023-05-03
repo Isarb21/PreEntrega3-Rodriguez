@@ -7,7 +7,7 @@
   background-color: $color_1;
 }
 .section_a_box {
-  background-color: $color_5;
+  background-image: linear-gradient($color_5, $color_6);
   color: $color_3;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -27,7 +27,7 @@
   flex-wrap: wrap;
 }
 .section_c_box {
-  background-color: $color_5;
+  background-image: linear-gradient(to top, $color_5, $color_6);
   color: $color_3;
   padding-top: 3%;
   padding-left: 18%;

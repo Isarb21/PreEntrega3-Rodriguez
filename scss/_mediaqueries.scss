@@ -41,8 +41,7 @@
     padding-left: 50%;
   }
   .img_box {
-    flex-direction: row;
-    gap: 15px;
+    @include flexlayout(row, 15px);
   }
   .img_comunication {
     max-width: 40%;

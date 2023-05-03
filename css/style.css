@@ -107,7 +107,7 @@ p {
 }
 
 .section_a_box {
-  background-color: rgb(230, 245, 255);
+  background-image: linear-gradient(rgb(230, 245, 255), rgb(180, 208, 225));
   color: rgb(36, 36, 36);
   padding-top: 3%;
   padding-bottom: 3%;
@@ -129,7 +129,7 @@ p {
 }
 
 .section_c_box {
-  background-color: rgb(230, 245, 255);
+  background-image: linear-gradient(to top, rgb(230, 245, 255), rgb(180, 208, 225));
   color: rgb(36, 36, 36);
   padding-top: 3%;
   padding-left: 18%;
@@ -223,6 +223,7 @@ textarea {
   flex-wrap: wrap;
   padding-top: 5%;
   padding-bottom: 5%;
+  background-image: linear-gradient(rgb(230, 245, 255), rgb(180, 208, 225));
 }
 
 .accordion {
@@ -291,6 +292,7 @@ textarea {
     padding-left: 50%;
   }
   .img_box {
+    display: flex;
     flex-direction: row;
     gap: 15px;
   }
