@@ -1,11 +1,23 @@
 .img_comunication {
   max-width: 80%;
+
+  &:hover {
+    max-width: 45%;
+  }
 }
 .img_product {
   max-width: 80%;
+
+  &:hover {
+    max-width: 45%;
+  }
 }
 .img_project {
   max-width: 80%;
+
+  &:hover {
+    max-width: 45%;
+  }
 }
 
 .title_box {

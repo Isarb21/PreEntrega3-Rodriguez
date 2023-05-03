@@ -36,6 +36,10 @@
   font-family: "Libre Franklin", sans-serif;
   font-weight: 500;
 }
+.navbar-elem:hover {
+  color: rgb(0, 0, 55);
+  font-weight: 600;
+}
 
 h1 {
   font-size: 150%;
@@ -196,13 +200,22 @@ textarea {
 .img_comunication {
   max-width: 80%;
 }
+.img_comunication:hover {
+  max-width: 45%;
+}
 
 .img_product {
   max-width: 80%;
 }
+.img_product:hover {
+  max-width: 45%;
+}
 
 .img_project {
   max-width: 80%;
+}
+.img_project:hover {
+  max-width: 45%;
 }
 
 .title_box {

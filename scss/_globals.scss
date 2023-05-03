@@ -36,6 +36,11 @@
   color: $color_1;
   font-family: $font-family_1;
   font-weight: 500;
+
+  &:hover {
+    color: $color_4;
+    font-weight: 600;
+  }
 }
 
 h1 {
