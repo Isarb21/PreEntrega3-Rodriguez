@@ -1,0 +1,54 @@
+.introduction_box {
+  color: $color_2;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 18%;
+  padding-left: 18%;
+  background-color: $color_1;
+}
+.section_a_box {
+  background-color: $color_5;
+  color: $color_3;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_b_box {
+  background-color: $color_1;
+  color: $color_2;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_c_box {
+  background-color: $color_5;
+  color: $color_3;
+  padding-top: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_c_description {
+  text-align: left;
+  background-color: $color_5;
+  color: $color_3;
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.foto_paisaje1 {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.foto_paisaje2 {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
