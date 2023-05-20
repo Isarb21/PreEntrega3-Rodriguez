@@ -2,7 +2,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
   grid-template-areas: "header" "main" "footer";
 }
 
@@ -161,15 +161,6 @@ p {
   margin-bottom: 10px;
 }
 
-.title_box {
-  color: rgb(255, 255, 255);
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 18%;
-  padding-left: 12%;
-  background-color: rgb(33, 33, 100);
-}
-
 .form_box {
   background-image: linear-gradient(rgb(230, 245, 255), rgb(180, 208, 225));
   color: rgb(36, 36, 36);
@@ -178,7 +169,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 form {
@@ -342,8 +333,8 @@ input {
     margin-left: 80px;
   }
   .form_box {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-right: 25%;
     padding-left: 25%;
   }
