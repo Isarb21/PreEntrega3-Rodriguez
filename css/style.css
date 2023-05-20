@@ -161,10 +161,19 @@ p {
   margin-bottom: 10px;
 }
 
+.title_box {
+  color: rgb(255, 255, 255);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 18%;
+  padding-left: 12%;
+  background-color: rgb(33, 33, 100);
+}
+
 .form_box {
-  background-color: rgb(230, 245, 255);
+  background-image: linear-gradient(rgb(230, 245, 255), rgb(180, 208, 225));
   color: rgb(36, 36, 36);
-  padding: 5%;
+  padding: 7%;
   font-family: "Libre Franklin", sans-serif;
   display: flex;
   justify-content: center;
@@ -175,26 +184,24 @@ p {
 form {
   width: 100%;
   padding: 5%;
-  max-width: 700px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
+  max-width: 900px;
+  border: 1px solid rgb(0, 0, 55);
   border-radius: 5px;
 }
 
 .selection {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
 }
 
 input {
   width: 100%;
-  box-sizing: border-box;
 }
 
-textarea {
-  width: 100%;
-  box-sizing: border-box;
+.form-group {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .img_comunication {
@@ -256,24 +263,13 @@ textarea {
   .form_elements {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
-  .nombre {
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
+    gap: 10px;
   }
   .selection {
     gap: 25px;
   }
   form {
     max-width: 100%;
-  }
-  .form_box {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 30%;
-    padding-left: 30%;
   }
   .navbar-elem {
     margin-left: 5px;
@@ -344,6 +340,12 @@ textarea {
   }
   .navbar-elem {
     margin-left: 80px;
+  }
+  .form_box {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 25%;
+    padding-left: 25%;
   }
 }
 
